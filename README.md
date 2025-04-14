@@ -1,5 +1,3 @@
-Aqui está um modelo completo de **README.md** para seu projeto **Spring Boot TodoList**, com informações técnicas, como executar o projeto e badges personalizáveis:
-
 ```markdown
 # 📝 Spring Boot TodoList Application
 
@@ -7,49 +5,49 @@ Aqui está um modelo completo de **README.md** para seu projeto **Spring Boot To
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.1-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-Aplicação de lista de tarefas (TODO) desenvolvida com Spring Boot para gerenciamento de atividades diárias.
+A task management application built with Spring Boot for daily activity organization.
 
-## ✨ Funcionalidades
+## ✨ Features
 
-- ✅ Criar, editar e excluir tarefas
-- ✅ Marcar tarefas como concluídas
-- ✅ Filtragem por status (todas/ativas/concluídas)
-- ✅ Persistência em banco de dados H2 (em memória)
-- ✅ API RESTful documentada
+- ✅ Create, edit, and delete tasks
+- ✅ Mark tasks as completed
+- ✅ Filter by status (all/active/completed)
+- ✅ H2 in-memory database persistence
+- ✅ Documented RESTful API
 
-## 🚀 Como Executar
+## � How to Run
 
-### Pré-requisitos
+### Prerequisites
 - Java 21+
 - Maven 3.6+
-- (Opcional) Docker para versão containerizada
+- (Optional) Docker for containerized version
 
-### Instalação Local
+### Local Installation
 ```bash
-# Clone o repositório
+# Clone repository
 git clone https://github.com/newtsarthur/spring-boot-todolist.git
 cd spring-boot-todolist
 
-# Compile e execute
+# Compile and run
 mvn spring-boot:run
 ```
 
-### Acessando a Aplicação
+### Access Points
 - **API**: `http://localhost:8080/api/tasks`
 - **Swagger UI**: `http://localhost:8080/swagger-ui.html`
-- **Banco H2 Console**: `http://localhost:8080/h2-console` (JDBC URL: `jdbc:h2:mem:todolist`)
+- **H2 Console**: `http://localhost:8080/h2-console` (JDBC URL: `jdbc:h2:mem:todolist`)
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Tech Stack
 
-| Tecnologia        | Finalidade                          |
-|-------------------|-------------------------------------|
-| Spring Boot       | Framework backend                   |
-| Spring Data JPA   | Persistência de dados               |
-| H2 Database       | Banco em memória para desenvolvimento|
-| Swagger           | Documentação de API                 |
-| Lombok            | Redução de boilerplate code         |
+| Technology       | Purpose                          |
+|------------------|----------------------------------|
+| Spring Boot      | Backend framework                |
+| Spring Data JPA  | Data persistence                 |
+| H2 Database      | In-memory development database   |
+| Swagger          | API documentation                |
+| Lombok           | Boilerplate code reduction       |
 
-## 🌿 Estrutura do Projeto
+## 🌿 Project Structure
 ```
 src/
 ├── main/
@@ -57,21 +55,23 @@ src/
 │   │   └── com/
 │   │       └── example/
 │   │           └── todolist/
-│   │               ├── controller/   # Endpoints API
-│   │               ├── model/        # Entidades JPA
-│   │               ├── repository/   # Interfaces Spring Data
-│   │               └── service/      # Lógica de negócio
+│   │               ├── controller/   # API endpoints
+│   │               ├── model/        # JPA entities
+│   │               ├── repository/   # Spring Data interfaces
+│   │               └── service/      # Business logic
 │   └── resources/
-│       ├── application.properties    # Configurações
-│       └── static/                   # Frontend (se aplicável)
+│       ├── application.properties    # Configuration
+│       └── static/                   # Frontend (if applicable)
 ```
 
-## 🤝 Como Contribuir
-1. Faça um fork do projeto
-2. Crie uma branch (`git checkout -b feature/nova-funcionalidade`)
-3. Commit suas mudanças (`git commit -m 'Adiciona nova funcionalidade'`)
-4. Push para a branch (`git push origin feature/nova-funcionalidade`)
-5. Abra um Pull Request
+## 🤝 Contributing
+1. Fork the project
+2. Create your branch (`git checkout -b feature/new-feature`)
+3. Commit changes (`git commit -m 'Add new feature'`)
+4. Push to branch (`git push origin feature/new-feature`)
+5. Open a Pull Request
 
-## 📄 Licença
-Este projeto está sob licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+## 📄 License
+This project is licensed under MIT - see [LICENSE](LICENSE) for details.
+
+---
