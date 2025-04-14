@@ -1,15 +1,11 @@
 ```markdown
 # 📝 Spring Boot TodoList Application
 
-![Java](https://img.shields.io/badge/Java-17%2B-blue)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.1-green)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-
 A task management application built with Spring Boot for daily activity organization.
 
 ## ✨ Features
 
-- ✅ Create, edit, and delete tasks
+- ✅ Create, get, and delete tasks
 - ✅ Mark tasks as completed
 - ✅ Filter by status (all/active/completed)
 - ✅ H2 in-memory database persistence
