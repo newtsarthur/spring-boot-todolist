@@ -27,6 +27,9 @@ cd spring-boot-todolist
 # Compile and run
 mvn spring-boot:run
 ```
+## 📊 Test Coverage
+![JaCoCo Coverage Report](./docs/img/test-coverage.png)
+---
 
 ### Access Points
 - **API**: `http://localhost:8080/api/tasks`
